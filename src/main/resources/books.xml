@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookList>
+	<Books>
+		<Item cat="S">
+			<Title>Number, the Language of Science</Title>
+			<Author>Danzig</Author>
+			<Author>Danziga</Author>
+			<Price>5.95</Price>
+			<Quantity>3</Quantity>
+		</Item>
+		<Item cat="F">
+			<Title>Tales of Grandpa Cat</Title>
+			<Publisher>Associated Press</Publisher>
+			<Author>Wardlaw, Lee</Author>
+			<Price>6.58</Price>
+			<Quantity>5</Quantity>
+		</Item>
+		<Item cat="S">
+			<Title>Language &amp; the Science of Number</Title>
+			<Author>Danzig</Author>
+			<Price>8.95</Price>
+			<Quantity>5</Quantity>
+		</Item>
+		<Item cat="S">
+			<Title>Evolution of Complexity in Animal Culture</Title>
+			<Author>Bonner</Author>
+			<Price>5.95</Price>
+			<Quantity>2</Quantity>
+		</Item>
+		<Item cat="X">
+			<Title>Patterns of Crime in Animal Culture</Title>
+			<Author>Bonner</Author>
+			<Price>15.95</Price>
+			<Quantity>0</Quantity>
+		</Item>
+		<Item cat="F" tax="7.5">
+			<Title>When We Were Very Young</Title>
+			<Author>Milne, A. A.</Author>
+			<Price>12.50</Price>
+			<Quantity>1</Quantity>
+		</Item>
+		<Item cat="C">
+			<!-- Put here a comment on this item -->
+			<Title>Learn Java Now</Title>
+			<Author>Stephen R. Davis</Author>
+			<Publisher>Microsoft Corporation</Publisher>
+			<Price>9.95</Price>
+			<Quantity>12</Quantity>
+		</Item>
+		<Item cat="C" tax="12.5">
+	<?testpi1 here is a message for an application?>
+			<Title>Design Patterns</Title>
+			<Authors>
+				<Author top="true">Erich Gamma</Author>
+				<Author>Richard Helm</Author>
+				<Author>Ralph Johnson</Author>
+				<Author> John Vlissides</Author>
+			</Authors>
+			<Publisher>Addison Wesley</Publisher>
+			<Price>49.95</Price>
+			<Quantity>2</Quantity>
+		</Item>
+	</Books>
+	<Categories desc="Miscellaneous categories">
+      <?testpi2 here is a message for another application?>
+		A list of categories
+		<Category code="S" desc="Science" />
+		<Category code="I" desc="Science" note="Limited Stock" />
+		<Category code="C" desc="Computing" />
+		<Category code="X" desc="Crime" />
+		<Category code="F" desc="Fiction" />
+	</Categories>
+</BookList>
